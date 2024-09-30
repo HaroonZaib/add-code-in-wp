@@ -114,7 +114,7 @@ function my_enqueue() {
         'add_code_in_wp',
         plugin_dir_url(__FILE__) . 'js/script.js',
         array( 'jquery' ),
-        '3.0.0',
+        null,
         true
     );
 
@@ -127,7 +127,7 @@ function my_enqueue() {
         )
     );
 }
-
+add_action( 'admin_enqueue_scripts', 'my_enqueue' );
 
 include_once __DIR__ . '/assets/inc.php';
 
