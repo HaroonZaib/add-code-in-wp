@@ -1,2 +1,2 @@
 # add-code-in-wp
-This WordPress plugin let you help to load your javascript and css code in whole website and on product page if Woocommerce installed
+This WordPress plugin build to run JavaScript and CSS code in website and product page if Woocommerce installed. It let you load code in header tag and before body tag.
